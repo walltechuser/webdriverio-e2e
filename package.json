@@ -15,10 +15,14 @@
     "@wdio/mocha-framework": "^5.16.15",
     "@wdio/spec-reporter": "^5.16.11",
     "@wdio/sync": "^5.16.15",
+    "chai": "^4.2.0",
     "chromedriver": "^79.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.5",
     "wdio-chromedriver-service": "^5.0.2"
   },
   "dependencies": {
-    "bottlejs": "^1.7.2"
+    "bottlejs": "^1.7.2",
+    "expect": "^24.9.0",
+    "faker": "^4.1.0"
   }
 }

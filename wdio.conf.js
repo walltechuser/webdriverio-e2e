@@ -177,10 +177,8 @@ exports.config = {
     /**
      * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
-    beforeTest: async function (test, context) {
-        await browser.url(this.baseUrl)
-
-
+    beforeTest: function () {
+        browser.url(this.baseUrl);
     },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
@@ -250,4 +248,4 @@ exports.config = {
      */
     //onReload: function(oldSessionId, newSessionId) {
     //}
-}
+};

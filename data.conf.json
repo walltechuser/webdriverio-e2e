@@ -1,0 +1,18 @@
+{
+  "env": {
+    "stage": "staging"
+  },
+  "data": {
+    "password": "ValidPass123"
+  },
+  "products": {
+    "coat": "nordstrom",
+    "crossed": "Crossed",
+    "socks": "adidas",
+    "jacket": "nike"
+  },
+  "colors": {
+    "red": "red",
+    "black": "black"
+  }
+}
